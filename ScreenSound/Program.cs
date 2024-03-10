@@ -1,19 +1,24 @@
-﻿//duração, artista, nome, disponivel
-Musica musica1 = new Musica();
-musica1.nome = "Roxane";
-musica1.artista = "the police";
-musica1.duracao = 273;
-musica1.EscreveDiponivel(true);
+﻿Album albumKendrickLamar = new Album();
+albumKendrickLamar.Nome = "DAMN";
 
-Console.WriteLine(musica1.LeDisponivel());
+
+Musica musica1 = new Musica();
+musica1.Nome = "BLOOD";
+musica1.Duracao = 213;
+
 
 Musica musica2 = new Musica();
-musica2.nome = "Vertigo";
-musica2.artista = "U2";
-musica2.duracao = 367;
-musica2.EscreveDiponivel(false);
+musica2.Nome = "DNA";
+musica2.Duracao = 300;
 
+albumKendrickLamar.AdicionarMusica(musica1);
+albumKendrickLamar.AdicionarMusica(musica2);
 
-musica1.ExibirListaTecnica();
-musica2.ExibirListaTecnica();
+Genero genero = new Genero();
+genero.Nome = "Rap";
 
+Banda queen = new Banda();
+queen.Nome = "Kendrick Lamar";
+queen.AdicionarAlbum(albumKendrickLamar);
+queen.ExibirDiscografia();
+genero.ExibirGenero();
