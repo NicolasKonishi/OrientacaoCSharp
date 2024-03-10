@@ -3,7 +3,16 @@
    public String nome;
    public String artista;
    public int duracao;
-   public bool disponivel;
+   private bool disponivel;
+
+   public void EscreveDiponivel(bool value)
+    {
+        this.disponivel = value;
+    }
+    public bool LeDisponivel()
+    {
+        return disponivel;
+    }
 
     public void ExibirListaTecnica()
     {
