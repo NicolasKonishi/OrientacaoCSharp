@@ -1,5 +1,6 @@
 ﻿class Podcast
 {
+    //classe para criação de podcast
     private List<Episodio> Episodios = new List<Episodio>();
 
     public Podcast(string host, string nome)

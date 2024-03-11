@@ -1,5 +1,6 @@
 ﻿class Episodio
 {
+    //classe de episódios para podcast
     private List<string> Convidados = new();
     public Episodio( int ordem,int duracao, string titulo)
     {

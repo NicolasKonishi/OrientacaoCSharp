@@ -1,5 +1,6 @@
 ﻿class Album
 {
+    //classe para album das músicas
     private List<Musica> musicas = new List<Musica>();
     public Album(string nome)
     {

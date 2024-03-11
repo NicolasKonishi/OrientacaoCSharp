@@ -1,5 +1,6 @@
 ﻿class Banda
 {
+    //classe para banda das músicas
     private List<Album> albuns = new List<Album>();
     public Banda(string nome)
     {

@@ -1,4 +1,4 @@
-﻿
+﻿// Desafio final do curso abaixo:
 Episodio ep1 = new(1, 45, "Hello");
 ep1.AdicionarConvidados("Nicolas");
 ep1.AdicionarConvidados("Vitor");
@@ -15,7 +15,7 @@ podcast.AdicionarEpisodios(ep2);
 podcast.ExibirDetalhes();
 
 
-
+// Desafio feito com os instrutores durante o curso abaixo: 
 Banda queen = new Banda("Queen");
 Album albumDoQueen = new Album("A Night at the Opera");
 
@@ -35,11 +35,11 @@ albumDoQueen.AdicionarMusica(musica1);
 albumDoQueen.AdicionarMusica(musica2);
 queen.AdicionarAlbum(albumDoQueen);
 
-// Genero genero = new Genero();
-//genero.Nome = "Rock";
+ Genero genero = new Genero();
+genero.Nome = "Rock";
 
 musica1.ExibirListaTecnica();
 musica2.ExibirListaTecnica();
 albumDoQueen.ExibirMusicasDoAlbum();
 queen.ExibirDiscografia();
-//genero.ExibirGenero();
+genero.ExibirGenero();

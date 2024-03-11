@@ -1,5 +1,6 @@
 ﻿class Genero
 {
+    //classe para gênero das músicas
     private List<Genero> generos = new List<Genero>(); 
     public string Nome { get; set; }
     public void AdicionarAlbum(Genero genero)

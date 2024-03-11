@@ -1,5 +1,7 @@
 ﻿class Musica
 {
+    //classe para criação das músicas
+
     public Musica(Banda artista, string nome)
     {
         Artista = artista;
