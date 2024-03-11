@@ -9,9 +9,5 @@ O curso aborda os seguintes tópicos:
 - Manipulação de classes e objetos
 - Criação de propiedades e métodos para gerenciar atributos
 - Exploração de relacionamentos entre classes
-- 
-## Instrutor
-
-**Daniel Portugal e Guilherme Lima**
 
 Confira meus outros cursos no Linkedin!
