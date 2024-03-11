@@ -16,29 +16,7 @@ podcast.ExibirDetalhes();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Banda queen = new Banda("Queen");
+Banda queen = new Banda("Queen");
 Album albumDoQueen = new Album("A Night at the Opera");
 
 Musica musica1 = new Musica(queen, "Love Of My Life")
@@ -47,8 +25,7 @@ Musica musica1 = new Musica(queen, "Love Of My Life")
     Disponivel = true,
 };
 
-Musica musica2 = new Musica(queen, "Bohemian Rhapsody
-")
+Musica musica2 = new Musica(queen, "Bohemian Rhapsody")
 {
     Duracao = 300,
     Disponivel = false,
@@ -66,4 +43,3 @@ musica2.ExibirListaTecnica();
 albumDoQueen.ExibirMusicasDoAlbum();
 queen.ExibirDiscografia();
 //genero.ExibirGenero();
-*/
