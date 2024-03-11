@@ -39,15 +39,16 @@ podcast.ExibirDetalhes();
 
 
 /*Banda queen = new Banda("Queen");
-Album albumDoQueen = new Album("DAMN");
+Album albumDoQueen = new Album("A Night at the Opera");
 
-Musica musica1 = new Musica(queen, "BLOOD")
+Musica musica1 = new Musica(queen, "Love Of My Life")
 {
     Duracao = 213,
     Disponivel = true,
 };
 
-Musica musica2 = new Musica(queen, "DNA")
+Musica musica2 = new Musica(queen, "Bohemian Rhapsody
+")
 {
     Duracao = 300,
     Disponivel = false,
@@ -58,7 +59,7 @@ albumDoQueen.AdicionarMusica(musica2);
 queen.AdicionarAlbum(albumDoQueen);
 
 // Genero genero = new Genero();
-//genero.Nome = "Rap";
+//genero.Nome = "Rock";
 
 musica1.ExibirListaTecnica();
 musica2.ExibirListaTecnica();
